@@ -1,6 +1,13 @@
 # java-kata-bootstrap
 
-Java Bootstrap project for kata using Quarkus.
+Java 17 bootstrap project for kata using Quarkus.
+
+Included librairies:
+
+- quarkus-junit5
+- quarkus-cucumber
+- assertj
+- mockito
 
 ## Usage
 
@@ -43,10 +50,15 @@ quarkus test
 quarkus dev
 ```
 
+### IntelliJ
+
+- Run provided `quarkus:test` configuration
+
 ## Related Guides
 
-- [More on testing](https://quarkus.io/guides/getting-started-testing) (Endpoint, Injection, Mock, Security, ...)
-- [Continuous testing guide](https://quarkus.io/guides/continuous-testing)
-- Run tests using Cucumber ([guide](https://quarkiverse.github.io/quarkiverse-docs/quarkus-cucumber/dev/index.html))
+- [Getting Started Testing](https://quarkus.io/guides/getting-started-testing) (Endpoint, Injection, Mock,
+  Security, ...)
+- [Continuous Testing Guide](https://quarkus.io/guides/continuous-testing)
 - [Quarkus CLI](https://quarkus.io/guides/cli-tooling)
-- [Quarkus dev mode](https://quarkus.io/guides/dev-mode-differences#dev-mode-features)
+- [Quarkus Dev Mode](https://quarkus.io/guides/dev-mode-differences#dev-mode-features)
+- Run tests using [Quarkus Cucumber](https://quarkiverse.github.io/quarkiverse-docs/quarkus-cucumber/dev/index.html)
