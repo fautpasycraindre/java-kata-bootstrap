@@ -24,7 +24,7 @@ Included librairies:
 
 ### Maven
 
-- Without Dev mode _(recommended)_
+- With continous test mode _(recommended)_
 
 ```shell script
 ./mvnw clean quarkus:test
@@ -38,7 +38,7 @@ Included librairies:
 
 ### CLI
 
-- Without dev mode _(recommended)_
+- With conti ous test mode _(recommended)_
 
 ```shell script
 quarkus test
